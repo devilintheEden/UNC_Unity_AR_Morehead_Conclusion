@@ -23,7 +23,7 @@ MonoBehaviour:
       m_GuidHigh: 4375465139027694875
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: painting3
+    m_Name: GeorgeWashington
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5066702897595466484
@@ -33,7 +33,7 @@ MonoBehaviour:
       m_GuidHigh: 9371290958851625163
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: painting1
+    m_Name: PaulusVanBeresteyn
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5347184926965906461
@@ -44,4 +44,24 @@ MonoBehaviour:
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: painting2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5633447376944637039
+      m_GuidHigh: 2399169125349876643
+    m_SerializedTextureGuid:
+      m_GuidLow: 10093794444811984201
+      m_GuidHigh: 8967428145194680522
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: painting4
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5497788481809709370
+      m_GuidHigh: 4275608036755273646
+    m_SerializedTextureGuid:
+      m_GuidLow: 16349238359281413140
+      m_GuidHigh: 10699596560794382201
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: painting1
     m_Texture: {fileID: 0}

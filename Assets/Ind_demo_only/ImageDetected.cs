@@ -10,6 +10,8 @@ public class ImageDetected : MonoBehaviour
     public GameObject SlidePuzzlePrefab;
     public GameObject MatchPuzzlePrefab;
     public GameObject StoneBrokePrefab;
+    public GameObject GravityMazePrefab;
+    public GameObject FaceOnCashPrefab;
 
     void Awake()
     {
@@ -32,21 +34,23 @@ public class ImageDetected : MonoBehaviour
                     case "painting2":
                         Instantiate(MatchPuzzlePrefab);
                         break;
-                    case "painting3":
+                    case "PaulusVanBeresteyn":
                         Instantiate(StoneBrokePrefab);
+                        break;
+                    case "painting4":
+                        Instantiate(GravityMazePrefab);
+                        break;
+                    case "GeorgeWashington":
+                        Instantiate(FaceOnCashPrefab);
                         break;
                 }
                 detectActive = false;
             }
-            Debug.Log("here");
             for (int i = 0; i < eventArgs.updated.Count; i++)
             {
                 name = eventArgs.updated[i].referenceImage.name;
-                Debug.Log(name);
-                Debug.Log(eventArgs.updated[i].trackingState);
                 if (eventArgs.updated[i].trackingState == TrackingState.Tracking)
                 {
-                    Debug.Log("here1");
                     switch (name)
                     {
                         case "painting1":
@@ -55,8 +59,14 @@ public class ImageDetected : MonoBehaviour
                         case "painting2":
                             Instantiate(MatchPuzzlePrefab);
                             break;
-                        case "painting3":
+                        case "PaulusVanBeresteyn":
                             Instantiate(StoneBrokePrefab);
+                            break;
+                        case "painting4":
+                            Instantiate(GravityMazePrefab);
+                            break;
+                        case "GeorgeWashington":
+                            Instantiate(FaceOnCashPrefab);
                             break;
                     }
                     detectActive = false;
